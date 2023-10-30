@@ -14,7 +14,7 @@ public class Productor extends Thread  {
 	@Override
 	public void run() {
 		for (int i = 1; i <= 10; i++) {
-			String mensaje = nombre + " - " + i;// Productor 1 - 1
+			String mensaje = nombre + " - " + i;
 			emailBuffer.addCola(new Email(i, "receptor" + i + "@gmail.com", new Remitente("emisor" + i + "@gmail.com"),
 					"Asunto " + i, "cuerpo de mensaje " + i), mensaje);
 			if (i == 9) {

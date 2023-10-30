@@ -43,11 +43,6 @@ public class EmailBuffer {
 			}
 		}
 		
-		
-		
-		// Añadimos un elemento a la cola
-
-		// Despertamos a un hilo que esté en estado 'wait'
 		notify();
 		
 		return buffer.poll();
