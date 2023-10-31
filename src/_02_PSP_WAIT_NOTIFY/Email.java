@@ -2,8 +2,8 @@ package _02_PSP_WAIT_NOTIFY;
 
 public class Email {
 	int Id;
-	String Destinatario;
-	Remitente Remitente;
+	private String Destinatario;
+	private Remitente Remitente;
 	private String Asunto;
 	private String CuerpoMensaje;
 

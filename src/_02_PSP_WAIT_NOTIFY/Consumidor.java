@@ -4,8 +4,8 @@ import java.util.LinkedList;
 import java.util.Queue;
 
 public class Consumidor extends Thread {
-	public String nombre;
-	public EmailBuffer EmailBuffer;
+	private String nombre;
+	private EmailBuffer EmailBuffer;
 	private Queue<Email> buffer ;
 
 	public Consumidor(String nombre,  EmailBuffer EmailBuffer) {

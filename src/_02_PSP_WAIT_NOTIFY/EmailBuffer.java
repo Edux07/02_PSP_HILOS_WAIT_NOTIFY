@@ -5,13 +5,9 @@ import java.util.*;
 public class EmailBuffer {
 	private Queue<Email> buffer ;
 	public final static int MAX_ELEMENTOS = 5;
-	Email email;
-	String nombreProduc;
 
-	public EmailBuffer(Email email, String nombreProduc) {
+	public EmailBuffer() {
 		super();
-		this.email = email;
-		this.nombreProduc = nombreProduc;
 		buffer = new LinkedList<>();
 	}
 

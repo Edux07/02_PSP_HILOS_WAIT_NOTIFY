@@ -1,8 +1,8 @@
 package _02_PSP_WAIT_NOTIFY;
 
 public class Productor extends Thread  {
-	public String nombre;
-	public EmailBuffer emailBuffer;
+	private String nombre;
+	private EmailBuffer emailBuffer;
 
 
 	public Productor(String nombre, EmailBuffer emailBuffer) {
